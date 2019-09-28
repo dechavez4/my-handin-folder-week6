@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Create a Single Page Application that uses our cool API</h1>
+    <h2>Show all users</h2>
+    <table class="table table-stripped col-md-12">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Age</th>
+        <th scope="col">Name</th>
+        <th></th>
+        <th scope="col">Gender</th>
+        <th scope="col">Email</th>
+      </tr>
+      <tbody id="users">
+
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <h2>Show a single User</h2>
+    <table class="table table-stripped">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Age</th>
+        <th scope="col">Name</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Email</th>
+
+        <tbody id="user">
+
+        </tbody>
+      <tr>
+        <td><input type="text" name="" value="" id="getId"></td>
+        <td><button type="button" onclick="" name="button" id="findUserId">søg efter user</button></td>
+      </tr>
+    </table>
+    <h2>Delete an existing user</h2>
+    <input type="text" name="" value="" id="deletId">
+    <button type="button" onclick="" name="button" id="deleteUserId">søg efter user</button>
+  </div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
